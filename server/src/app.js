@@ -3,8 +3,8 @@ import cors from "cors";
 import mongoose from "mongoose";
 import jwt from "jsonwebtoken";
 import User from "./schemas/User.js";
-import { JWT_SECRET_KEY } from "./constants.js";
 import Todos from "./schemas/Todos.js";
+import { JWT_SECRET_KEY } from "./constants.js";
 
 const app = express();
 const port = 1337;
